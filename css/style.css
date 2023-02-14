@@ -1,15 +1,15 @@
 :root{
-    --primary-color:#1abc9c;
-    --secondary-color:#2c3e50;   
+    --ms-primary-color:#1abc9c;
+    --ms-secondary-color:#2c3e50;   
 }
 header,
 footer{
-    background-color:var(--secondary-color);
+    background-color:var(--ms-secondary-color);
 }
 
 #start,
 #about{
-    background-color:var(--primary-color);
+    background-color:var(--ms-primary-color);
 }
 
 #portfolio,
