@@ -1,0 +1,20 @@
+.ms-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ms-bar::before,
+.ms-bar::after{
+    content:"";
+    display: block;
+    height: .1875rem;
+    width: 30%;
+    max-width: 150px;
+    border-radius: .0938rem;
+    background-color: currentColor;
+}
+
+.ms-bar i{
+    margin: 0 25px;
+    font-size: 2rem;
+}

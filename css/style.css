@@ -1,4 +1,6 @@
 @import 'components/card.css';
+@import'components/bar.css';
+@import 'components/social-icon.css';
 
 
 :root{
@@ -49,17 +51,3 @@ footer{
 .text-ms-primary-color{
     color: var(--ms-primary-color);
 }
-.fa-star{
-    font-size: 30px;
-    position: relative;
-}
-
-
-/* .fa-star:before {
-    content:"";
-    position: absolute;
-    left:50px;
-    bottom:-0.1875rem;
-    width:1.875rem;
-    border-bottom:2px solid black;
-  } */

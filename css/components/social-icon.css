@@ -1,0 +1,19 @@
+:root{
+    --ms-social-icon-size:3.125rem
+}
+
+
+.ms-social-icon{
+    display: inline-block;
+    height: var(--ms-social-icon-size);
+    width: var(--ms-social-icon-size);
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    line-height: var(--ms-social-icon-size);
+    font-size: 1.25rem;
+
+}
+
+/* height: var(--ms-social-icon-size, 50px); */
